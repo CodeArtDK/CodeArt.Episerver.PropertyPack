@@ -163,7 +163,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="CodeArt.Episerver.PropertyPack.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>$(SolutionDir).nuget\nuget.exe pack $(ProjectPath)</PostBuildEvent>
+  </PropertyGroup>
 </Project>

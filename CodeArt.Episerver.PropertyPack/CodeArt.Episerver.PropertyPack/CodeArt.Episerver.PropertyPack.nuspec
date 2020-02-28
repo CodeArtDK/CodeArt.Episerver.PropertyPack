@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>CodeArt.Episerver.PropertyPack</id>
+    <version>0.5.0</version>
+    <title>Collection of useful property extensions for Episerver CMS</title>
+    <authors>CodeArt</authors>
+    <owners>CodeArt</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://www.codeart.dk/favicon.ico</iconUrl>
+    <projectUrl>https://github.com/CodeArtDK/CodeArt.Episerver.PropertyPack</projectUrl>
+    <releaseNotes>
+    </releaseNotes>
+    <description>Collection of attributes and validators for Episerver Property Types</description>
+    <tags>EPiServerPublicModulePackage Properties</tags>
+    <dependencies>
+      <dependency id="EPiServer.CMS.UI.Core" version="[11.1.0,12.0.0)" />
+    </dependencies>
+  </metadata>
+  
+</package>
